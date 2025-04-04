@@ -22,9 +22,9 @@ public class PrintAllSubsequences {
             System.out.println(st);
             return;
         }
-        st.push(arr[curPos]);
+        st.push(arr[curPos]); // pick the element at current index for pick case
         printSubsequence(arr, curPos+1, st);
-        st.pop();
+        st.pop(); // remove the element at last index for non-pick case
         printSubsequence(arr, curPos+1, st);
         
     }
