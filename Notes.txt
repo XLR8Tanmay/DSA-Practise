@@ -1,0 +1,13 @@
+* Patterns in Recursion - Subsequence Problems
+1. Print All Values
+ - Pick / Not Pick Approach
+2. Print Single Value
+ - In base case, use true or false as return statement (Function return type boolean)
+ - If any recursion call, gives a true, break out of the recursion loop.
+3. Print Count
+ - In base case, use 0 or 1 as return statement (Function return type int)
+ - Two different variable stores indicating left and right recursion call
+ - At the end return l + r
+4. Print Arrays with sum = K 
+ - Use a sum parameter in the recursive function call
+ - In base case, if sum == k, print the array.
