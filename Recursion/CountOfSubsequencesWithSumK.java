@@ -19,7 +19,7 @@ public class CountOfSubsequencesWithSumK {
         System.out.println("Count of subsequences with sum K is: "+ count);
     }
 
-    public static int printSubsequencesWithSumK(int[] arr, int pos, int k, int sum) {
+    private static int printSubsequencesWithSumK(int[] arr, int pos, int k, int sum) {
         if(pos >= arr.length) {
             if(sum == k) {
                 return 1;

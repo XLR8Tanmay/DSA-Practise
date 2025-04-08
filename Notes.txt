@@ -11,3 +11,8 @@
 4. Print Arrays with sum = K 
  - Use a sum parameter in the recursive function call
  - In base case, if sum == k, print the array.
+
+*Merge Sort:
+ - Optimized sorting algorithm which uses the "Divide and Merge" strategy
+ - Use two pointers, if left array val < right array val, add left array val to the result and vice versa.
+ - While merging, only use the low and high pointers to decide which index is to be updated in array. 
