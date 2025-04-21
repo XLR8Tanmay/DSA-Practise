@@ -12,7 +12,13 @@
  - Use a sum parameter in the recursive function call
  - In base case, if sum == k, print the array.
 
-*Merge Sort:
+* Merge Sort:
  - Optimized sorting algorithm which uses the "Divide and Merge" strategy
  - Use two pointers, if left array val < right array val, add left array val to the result and vice versa.
  - While merging, only use the low and high pointers to decide which index is to be updated in array. 
+
+* Combination Sum:
+ - Uses pick/non-pick approach with repetition on indexes.
+ - If index reaches end of the array, check if target is 0, if yes, print the data structure, else return.
+ - In pick case, if target can still accomodate the value at current index, subtract the value from target and do the recursion call on the same index with minimized target.
+ - In non-pick case, just move to the next index.
